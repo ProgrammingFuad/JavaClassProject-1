@@ -26,7 +26,7 @@ Determine who won the election
 Print the String announcing who won the election
 
 
-Candidate
+Candidate Class
 
 Has a name
 Has a campaign slogan
@@ -34,7 +34,7 @@ Has money (randomly start from $0 to $100, both points inclusive)
 Is a member of a Political Party
 Should be able to endorse things…This should be a method which returns a String “My name is XXX, and I approve this message”.  Where XXX should be replaced by the name of the candidate.
 
-Debate
+Debate Class
 
 Has a location
 Has 2 candidates (we will increase this limit in OoL #2)
@@ -45,7 +45,7 @@ Determining which number is bigger
 Transfer ALL of the losing candidate’s money to the winning candidate
 Returning a String declaring the winner and by how many “points”.
 
-Fundraiser
+Fundraiser Class
 
 Has a location
 Has 1 candidate
@@ -55,7 +55,7 @@ Randomly generating a number of donors who attended (0 to 200, both points inclu
 For each donor, generate a random number (0 to  151, zero inclusive, 151 exclusive) to represent how much that donor contributes
 Add the contributions to the candidate’s money
 
-Election
+Election Class
 
 Has a title (i.e. U.S. President)
 Has 10 candidates (We will adjust this limit in OoL #2)
